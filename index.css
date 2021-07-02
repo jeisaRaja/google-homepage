@@ -1,0 +1,164 @@
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.search{
+    display: flex;
+    min-height: 45px;
+    height: 5.5vh;
+    width: 580px;
+    border-radius: 1.5em / 1.5em;
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+    border-width: 1px;
+    /* min-width: 580px; */
+    text-indent: 3em;
+
+    align-items: center;
+    margin: auto;
+    margin-top:20px;
+}
+
+.searchlogo{
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#searchinput{
+    -moz-appearance : none;
+    border-style: none;
+    flex : 1;
+    -moz-appearance : none;
+    outline: none;
+    font-size: medium;
+    margin-right: 20px;
+
+}
+
+.search:hover{
+    box-shadow:0px 2px 5px rgb(223, 223, 223);
+}
+
+.searchimg{
+    margin-left:20px;
+    height: 20px;
+    width: auto;
+    opacity: 50%;
+}
+
+.lucky{
+    margin: auto;
+    margin-bottom: 230px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    color: rgb(77, 77, 77);
+    
+}
+
+
+a,p{  font-family: sans-serif;
+    text-decoration: none;
+    color:  rgb(34, 34, 34);
+}
+a.googlesearch{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    background-color: rgb(247, 247, 247);
+    padding: 10px 15px;
+}
+
+a.googlesearch:hover{
+    box-shadow:  0px 0px 2.5px rgb(134, 134, 134);
+}
+
+
+
+.navbar{
+    margin-top: 0px;
+}
+
+
+ul{
+    list-style: none;
+    display:flex;
+    margin-right: 10px;
+    text-align: end;
+    justify-content: end;
+    align-items: center;
+    margin-top: 14px;
+}
+li{
+    padding-left: 20px;
+    font-size:12px ;
+}
+
+.appslogo{
+    height: 24px;
+    opacity: 50%;
+}
+.jeisalogo{
+    border-radius: 50%;
+}
+.apps{
+    padding-left: 30px;
+}
+
+@media screen and (max-width:580px) {
+    .search{
+        width: 95vw;
+    }
+    .xx{
+        flex-direction: row;
+    }
+    
+}
+footer{
+    /* background-color: blue; */
+    margin-bottom: 0px;
+    flex-shrink: 0;
+}
+
+body{
+    margin-bottom:0px;
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.footer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.xx{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    margin-left: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+
+li.footlink{
+    padding-right :15px;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+
